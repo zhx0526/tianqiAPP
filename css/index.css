@@ -1,0 +1,685 @@
+/* 通用选择器：清除默认样式 */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #f5f5f5;
+	/* 文字大小 用px */
+	font-size: 14px;
+}
+.first{
+	/* first的大小跟父级元素大小一样  相对于rem */
+	width: 100%;
+	height: 13.77rem;
+	/* 加图片和颜色渐变 */
+	background-image: url('../img/screen.png'),linear-gradient(#3cbeff,#47e8ff);
+	background-position: bottom;
+	/* 背景图片不能覆盖其他图片 */
+	background-repeat: no-repeat;
+	/* 背景图片的大小  全部覆盖 */
+    background-size: 100% auto,cover;
+}
+.first .pos{
+	width: 100%;
+	height: 1.6rem;
+	color: #ffffff;
+	font-size: 0.4rem;
+	/* 字体位置 */
+	text-align: center;
+	line-height: 1.6rem;
+}
+.first .air{
+	/* 矩形的长宽 */
+	width: 2.1rem;
+	height: 1.26rem;
+	background: #f1ab62;
+	/* 矩形圆角 */
+	border-radius: 0.15rem;
+	/* 空气墙 */
+	margin-left: 0.27rem;
+}
+.first .air h4{
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.6rem;
+	text-align: center;
+}
+.first .air h5{
+	font-size: 0.34rem;
+	color: #fff;
+	text-align: center;
+	/* 文字加粗 */
+	font-weight: 400;
+}
+.first .title1{
+	width: 100%;
+	height: 1.3rem;
+	font-size: 1.3rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.5rem; 
+}
+.first .title2{
+	width: 100%;
+	height: 0.58rem;
+	font-size: 0.58rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.44rem; 
+}
+/* 若子弹元素没设置文字样式就会继承父级元素文字样式 */
+.first .title3{
+	width: 100%;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.35rem;
+}
+.first .title4{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	/* 文字上面空气墙 */
+	margin-top: 1.32rem;
+}
+.second{
+	width: 100%;
+	height: 2.88rem;
+	color: black;
+	/* 下边框 */
+	border-bottom: 0.01rem solid #e4e4e4;
+	font-size: 0.44rem;
+	background: #fff;
+
+}
+.second .today{
+	width: 5.4rem;
+	height: 1.47rem;
+	float: left;
+	/* 左边框 */
+	border-right:  0.03rem solid #e4e4e4;
+	margin-top: 0.72rem;
+}
+.second .tomorrow{
+	width: 5.37rem;
+	height: 1.47rem;
+	float: left;
+	margin-top: 0.72rem;
+}
+.second .today .top{
+	width: 100%;
+	height: 0.6rem;
+}
+.second .today .top .todayText{
+	width:0.95rem; 
+	height: 100%;
+	float: left;
+	margin-left: 0.56rem;
+	line-height: 0.6rem;
+}
+.second .today .top .tem{
+	width: 1.8rem;
+	height: 100%;
+	float: right;
+	line-height: 0.6rem;
+	margin-right: 0.59rem;
+}
+.second .today .bottom{
+	width: 100%;
+	height: 1.2rem;
+}
+.second .today .bottom .con{
+	width: 1.9rem;
+	height: 100%;
+	margin-left: 0.56rem;
+	float: left;
+	line-height: 1.41rem;
+}
+.second .today .bottom .conPic{
+	float: right;
+	width: 1.56rem;
+	height: 1.0rem; 
+	/* 左边距 */
+	margin-right: 0.59rem;
+	margin-top: 0.2rem;
+	/* background-image: url('../img/0.png'); */
+	background-position: bottom;
+	/* 背景图片不能覆盖其他图片 */
+	background-repeat: no-repeat;
+	/* 背景图片的大小  全部覆盖 */
+    background-size: 1rem auto,cover;
+}
+
+.second .tomorrow .top{
+	width: 100%;
+	height: 0.6rem;
+}
+.second .tomorrow .top .todayText{
+	width:0.95rem; 
+	height: 100%;
+	float: left;
+	margin-left: 0.56rem;
+	line-height: 0.6rem;
+}
+.second .tomorrow .top .tem{
+	width: 1.8rem;
+	height: 100%;
+	float: right;
+	line-height: 0.6rem;
+	margin-right: 0.59rem;
+}
+.second .tomorrow .bottom{
+	width: 100%;
+	height: 1.2rem;
+}
+.second .tomorrow .bottom .con{
+	width: 1.9rem;
+	height: 100%;
+	margin-left: 0.56rem;
+	float: left;
+	line-height: 1.41rem;
+}
+.second .tomorrow .bottom .conPic{
+	float: right;
+	width: 1.56rem;
+	height: 1.0rem; 
+	margin-right: 0.59rem;
+	margin-top: 0.2rem;
+	/* background-image: url('../img/1.png'); */
+	background-position: bottom;
+	/* 背景图片不能覆盖其他图片 */
+	background-repeat: no-repeat;
+	/* 背景图片的大小  全部覆盖 */
+    background-size: 1rem auto,cover;
+}
+.third{
+	width: 100%;
+	/* height: 2.08rem; */
+	background: #fff;
+	/* 外边距 此块与上一块的距离 */
+	margin-top: 0.27rem;
+	border-top: 0.03rem solid #e4e4e4;
+	border-bottom: 0.03rem solid #e4e4e4;
+	/* padding会撑大盒子，所以在height里面减去 */
+	padding: 0.88rem 0 0.88rem 0;
+	/* 横向允许出现滚动条 纵向隐藏 */
+	overflow-x: auto;  
+	overflow-y: hidden;
+}
+/* 滚动条的宽度设为0 */
+.third::-webkit-scrollbar{
+	width: 0;
+}
+.third .wrap{
+	width: 100%;
+	/* height: 100%; */
+	/* 弹性布局  也可以用浮动 */
+	display: flex;
+}
+.third .wrap .box{
+	width: 1.95rem;
+	height: 100%;
+	flex-shrink: 0;
+	/* border-right: 0.01rem solid #000; */
+}
+.third .wrap .box .time{
+	/* 文字不设置父级元素 */
+	font-size: 0.24rem;
+	color: #999;
+	text-align: center;
+
+}
+.third .wrap .box .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	/* background-image: url('../img/1.png'); */
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.57rem auto;
+}
+.third .wrap .box .timeTem{
+	font-size: 0.26rem;
+	color: #333;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.four{
+	width:100%;
+	height: 7.20rem; 
+	background: #ffffff;
+	margin-top: 0.27rem;
+	border-top: 0.03rem solid #e4e4e4;
+	border-bottom: 0.03rem solid #e4e4e4;
+	overflow-x: auto;  
+	overflow-y: hidden;
+}
+.four::-webkit-scrollbar{
+	width: 0;
+}
+.four .wrap1{
+	width: 100%;
+	/* height: 100%;   */
+	/* 弹性布局  也可以用浮动 */
+	display: flex;
+	margin: 0.72rem 0 0.95rem 0;
+	/* background: blue; */
+}
+.four .wrap1 .box{
+	width: 1.95rem;
+	height: 100%;
+	flex-shrink: 0;
+	/* border-right: 0.01rem solid #000;  */
+}
+.four .wrap1 .box .day{
+	font-size: 0.23rem;
+	color: #999;
+	text-align: center;
+}
+.four .wrap1 .box .weather{
+	font-size: 0.36rem;
+	color: #333333;
+	text-align: center;
+}
+.four .wrap1 .box .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	/* background-image: url('../img/1.png'); */
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.57rem auto;
+}
+.four .wrap1 .box .high{
+	font-size: 0.28rem;
+	color: #888888;
+	text-align: center;
+	margin-top: 0.47rem;
+}
+.four .wrap1 .box .low{
+	font-size: 0.28rem;
+	color: #888888;
+	text-align: center;
+	margin-top: 0.47rem
+}
+.four .wrap1 .box .wind{
+	font-size: 0.27rem;
+	color: #888888;
+	text-align: center;
+	margin-top: 0.47rem
+}
+.four .wrap1 .box .grade{
+	font-size: 0.29rem;
+	color: #888888;
+	text-align: center;
+}
+.five{
+	width:100%;
+	height: 6.80rem; 
+	background: #f5f5f5;
+	margin-top: 0.3rem;
+	border-top: 0.03rem solid #e4e4e4;
+	border-bottom: 0.03rem solid #e4e4e4;
+	/* overflow-x: auto;  
+	overflow-y: hidden; */
+}
+.five .top{
+	width: 100%;
+	height: 2.67rem;
+    background: #ffffff;
+    border-bottom: 0.03rem solid #e4e4e4;
+}
+.five .bottom{
+	width: 100%;
+	height: 2.67rem;
+    background: #ffffff;
+    border-bottom: 0.03rem solid #e4e4e4;
+}
+.five .top .f1{
+	width: 2.67rem;
+	height: 100%;
+	float: left;
+	border-right: 0.03rem solid #e4e4e4; 
+}
+.five .top .f2{
+	width: 2.67rem;
+	height: 100%;
+	float: left;
+	border-right: 0.03rem solid #e4e4e4; 
+}
+.five .top .f3{
+	width: 2.67rem;
+	height: 100%;
+	float: left;
+	border-right: 0.03rem solid #e4e4e4; 
+}
+.five .top .f4{
+	width: 2.67rem;
+	height: 100%;
+	float: left; 
+}
+.five .top .f1 .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	background-image: url('../img/1.png');
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.2rem auto;
+}
+.five .top .f1 .word{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.57rem;
+}
+.five .top .f1 .word .w1{
+	font-size: 0.36rem;
+	color: #434343;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .top .f1 .word .w2{
+	font-size: 0.36rem;
+	color: #999999;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .top .f2 .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	background-image: url('../img/1.png');
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.2rem auto;
+}
+.five .top .f2 .word{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.57rem;
+}
+.five .top .f2 .word .w1{
+	font-size: 0.36rem;
+	color: #434343;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .top .f2 .word .w2{
+	font-size: 0.36rem;
+	color: #999999;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .top .f3 .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	background-image: url('../img/1.png');
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.2rem auto;
+}
+.five .top .f3 .word{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.57rem;
+}
+.five .top .f3 .word .w1{
+	font-size: 0.36rem;
+	color: #434343;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .top .f3 .word .w2{
+	font-size: 0.36rem;
+	color: #999999;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .top .f4 .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	background-image: url('../img/1.png');
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.2rem auto;
+}
+.five .top .f4 .word{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.57rem;
+}
+.five .top .f4 .word .w1{
+	font-size: 0.36rem;
+	color: #434343;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .top .f4 .word .w2{
+	font-size: 0.36rem;
+	color: #999999;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .bottom .f1{
+	width: 2.67rem;
+	height: 100%;
+	float: left;
+	border-right: 0.03rem solid #e4e4e4; 
+}
+.five .bottom .f2{
+	width: 2.67rem;
+	height: 100%;
+	float: left;
+	border-right: 0.03rem solid #e4e4e4; 
+}
+.five .bottom .f3{
+	width: 2.67rem;
+	height: 100%;
+	float: left;
+	border-right: 0.03rem solid #e4e4e4; 
+}
+.five .bottom .f4{
+	width: 2.67rem;
+	height: 100%;
+	float: left; 
+}
+.five .bottom .f1 .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	/* background-image: url('../img/1.png'); */
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.2rem auto;
+}
+.five .bottom .f1 .word{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.57rem;
+}
+.five .bottom .f1 .word .w1{
+	font-size: 0.36rem;
+	color: #434343;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .bottom .f1 .word .w2{
+	font-size: 0.36rem;
+	color: #999999;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .bottom .f2 .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	/* background-image: url('../img/1.png'); */
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.2rem auto;
+}
+.five .bottom .f2 .word{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.57rem;
+}
+.five .bottom .f2 .word .w1{
+	font-size: 0.36rem;
+	color: #434343;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .bottom .f2 .word .w2{
+	font-size: 0.36rem;
+	color: #999999;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .bottom .f3 .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	/* background-image: url('../img/1.png'); */
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.2rem auto;
+}
+.five .bottom .f3 .word{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.57rem;
+}
+.five .bottom .f3 .word .w1{
+	font-size: 0.36rem;
+	color: #434343;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .bottom .f3 .word .w2{
+	font-size: 0.36rem;
+	color: #999999;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .bottom .f4 .icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	/* background-image: url('../img/1.png'); */
+    background-size: 100%;
+	/*空气墙 设置左右水平居中 */
+	margin: 0.57rem auto 0.2rem auto;
+}
+.five .bottom .f4 .word{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.57rem;
+}
+.five .bottom .f4 .word .w1{
+	font-size: 0.36rem;
+	color: #434343;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+.five .bottom .f4 .word .w2{
+	font-size: 0.36rem;
+	color: #999999;
+	/* 文字样式：水平居中 */
+	text-align: center;
+}
+
+
+.city{
+	width: 100%;
+	height: 100%;
+	/* 固定定位：相对于整个浏览器 */
+	position: fixed;
+	/* 下面两项将此快固定在左上角 */
+	top: 0;
+	left: 0;
+	background: #fff;
+	/* 隐藏此页面 */
+	/* display: none; */
+	overflow-y: auto;
+}
+.city::-webkit-scrollbar{
+	width: 0;
+}
+.city .search{
+	width: 100%;
+	height: 1.30rem;
+	border-bottom: 0.03rem solid #434343;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	/* 层级 */
+	z-index: 10;
+}
+.city .search .searchBox{
+	width: 7.68rem;
+	height: 0.86rem;
+	border-radius: 0.43rem;
+	background: #f2f2f2;
+	/* 让默认边框变为0 input有默认边框border */
+	border: none;
+	/* 次浏览框的外边距 */
+	margin: 0.24rem 0 0 0.24rem;
+	/* 内边框：文字相对于次搜索框的左边距 */
+	padding-left: 0.93rem;
+	/* 下面三个样式是对搜索框内的文字的设置 */
+	font-size: 0.32rem;
+	color: #808080;
+	float: left;
+
+}
+.city .search .button{
+	float: left;
+	font-size: 0.32rem;
+	color: #434343;
+	width: 1.83rem;
+	height: 0.86rem;
+	margin-top: 0.24rem;
+	text-align: center;
+	/* 文字垂直居中时参数是相对于边款的，所以要输入边框的高 */
+	line-height: 0.86rem;
+}
+.city .citys{
+	width: 100%;
+	overflow: hidden;
+	padding: 0.34rem;
+	/* 加了左右内边距将盒子撑大了，且宽度设成了100%并隐藏了多余出来的部分，
+	所以在此设置成盒子大小就出现右边距了*/
+	box-sizing: border-box;
+}
+.city .citys .title{
+	width: 100%;
+	font-size: 0.36rem;
+	color: #444;
+}
+.city .citys .con{
+	width: 100%;
+    margin-top: 0.4rem;
+    /* ?此处不加隐藏也不会出现多余部分 */
+    overflow: hidden;
+}
+.city .citys .con .box{
+	width: 3.16rem;
+	height: 0.79rem;
+	background: #f2f2f2;
+	border-radius: 0.4rem;
+	font-size: 0.3rem;
+	color: #4c4c4c;
+	text-align: center;
+	line-height: 0.8rem;
+	float: left;
+	margin-right: 0.3rem;
+    margin-bottom: 0.22rem;
+}
+/* 去1、2、3的右边距 */
+.city .citys .con .box:nth-child(3n){
+    margin-right: 0;
+}
+/* .city .citys:first-child{
+    margin-top: 1.4rem;
+} */
+.city .city1{
+	margin-top: 1.4rem;
+}
